@@ -1,0 +1,4238 @@
+{
+ "now": "2026-10-30T07:35:56+00:00",
+ "payload": {
+  "registry": {
+   "by_number": {
+    "262000": [
+     {
+      "volcano_number": 262000,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "3",
+      "label": "PVMBG Level III (Siaga)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     },
+     {
+      "volcano_number": 262000,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Darwin VAAC VAA",
+      "issued_at": "20261030/0641Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "263250": [
+     {
+      "volcano_number": 263250,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "3",
+      "label": "PVMBG Level III (Siaga)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263300": [
+     {
+      "volcano_number": 263300,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "3",
+      "label": "PVMBG Level III (Siaga)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     },
+     {
+      "volcano_number": 263300,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Darwin VAAC VAA",
+      "issued_at": "20261030/0310Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "264071": [
+     {
+      "volcano_number": 264071,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "267040": [
+     {
+      "volcano_number": 267040,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "265090": [
+     {
+      "volcano_number": 265090,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263310": [
+     {
+      "volcano_number": 263310,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261050": [
+     {
+      "volcano_number": 261050,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261230": [
+     {
+      "volcano_number": 261230,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "268010": [
+     {
+      "volcano_number": 268010,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     },
+     {
+      "volcano_number": 268010,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Darwin VAAC VAA",
+      "issued_at": "20261030/0720Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "268060": [
+     {
+      "volcano_number": 268060,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "268030": [
+     {
+      "volcano_number": 268030,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     },
+     {
+      "volcano_number": 268030,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Darwin VAAC VAA",
+      "issued_at": "20261030/0330Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "264230": [
+     {
+      "volcano_number": 264230,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264110": [
+     {
+      "volcano_number": 264110,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "267020": [
+     {
+      "volcano_number": 267020,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261170": [
+     {
+      "volcano_number": 261170,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264180": [
+     {
+      "volcano_number": 264180,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "266100": [
+     {
+      "volcano_number": 266100,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261140": [
+     {
+      "volcano_number": 261140,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263340": [
+     {
+      "volcano_number": 263340,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264030": [
+     {
+      "volcano_number": 264030,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264050": [
+     {
+      "volcano_number": 264050,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261080": [
+     {
+      "volcano_number": 261080,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263180": [
+     {
+      "volcano_number": 263180,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "266030": [
+     {
+      "volcano_number": 266030,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261120": [
+     {
+      "volcano_number": 261120,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264040": [
+     {
+      "volcano_number": 264040,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PVMBG Level II (Waspada)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264020": [
+     {
+      "volcano_number": 264020,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "266020": [
+     {
+      "volcano_number": 266020,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263290": [
+     {
+      "volcano_number": 263290,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264010": [
+     {
+      "volcano_number": 264010,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264260": [
+     {
+      "volcano_number": 264260,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263170": [
+     {
+      "volcano_number": 263170,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "266010": [
+     {
+      "volcano_number": 266010,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263200": [
+     {
+      "volcano_number": 263200,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264100": [
+     {
+      "volcano_number": 264100,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264160": [
+     {
+      "volcano_number": 264160,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263140": [
+     {
+      "volcano_number": 263140,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "268040": [
+     {
+      "volcano_number": 268040,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263060": [
+     {
+      "volcano_number": 263060,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263130": [
+     {
+      "volcano_number": 263130,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263350": [
+     {
+      "volcano_number": 263350,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264250": [
+     {
+      "volcano_number": 264250,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264220": [
+     {
+      "volcano_number": 264220,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264090": [
+     {
+      "volcano_number": 264090,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264080": [
+     {
+      "volcano_number": 264080,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261220": [
+     {
+      "volcano_number": 261220,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264140": [
+     {
+      "volcano_number": 264140,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263280": [
+     {
+      "volcano_number": 263280,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "268070": [
+     {
+      "volcano_number": 268070,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263320": [
+     {
+      "volcano_number": 263320,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264200": [
+     {
+      "volcano_number": 264200,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "266110": [
+     {
+      "volcano_number": 266110,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263100": [
+     {
+      "volcano_number": 263100,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261030": [
+     {
+      "volcano_number": 261030,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264150": [
+     {
+      "volcano_number": 264150,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "267010": [
+     {
+      "volcano_number": 267010,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263050": [
+     {
+      "volcano_number": 263050,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "264270": [
+     {
+      "volcano_number": 264270,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263220": [
+     {
+      "volcano_number": 263220,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263210": [
+     {
+      "volcano_number": 263210,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261160": [
+     {
+      "volcano_number": 261160,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "261150": [
+     {
+      "volcano_number": 261150,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "266130": [
+     {
+      "volcano_number": 266130,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "263090": [
+     {
+      "volcano_number": 263090,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "265040": [
+     {
+      "volcano_number": 265040,
+      "source": "PVMBG",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PVMBG Level I (Normal)",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://magma.esdm.go.id/v1/gunung-api/tingkat-aktivitas",
+      "stale": false
+     }
+    ],
+    "300270": [
+     {
+      "volcano_number": 300270,
+      "source": "KVERT",
+      "alert_type": "aviation_code",
+      "level": "ORANGE",
+      "label": "KVERT ORANGE",
+      "issued_at": "2026-10-29T00:00:00+00:00",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "http://kvert.febras.net/van/index?type=2",
+      "stale": false
+     }
+    ],
+    "300260": [
+     {
+      "volcano_number": 300260,
+      "source": "KVERT",
+      "alert_type": "aviation_code",
+      "level": "YELLOW",
+      "label": "KVERT YELLOW",
+      "issued_at": "2026-10-29T00:00:00+00:00",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "http://kvert.febras.net/van/index?type=2",
+      "stale": false
+     }
+    ],
+    "300250": [
+     {
+      "volcano_number": 300250,
+      "source": "KVERT",
+      "alert_type": "aviation_code",
+      "level": "YELLOW",
+      "label": "KVERT YELLOW",
+      "issued_at": "2026-10-29T00:00:00+00:00",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "http://kvert.febras.net/van/index?type=2",
+      "stale": false
+     }
+    ],
+    "300190": [
+     {
+      "volcano_number": 300190,
+      "source": "KVERT",
+      "alert_type": "aviation_code",
+      "level": "YELLOW",
+      "label": "KVERT YELLOW",
+      "issued_at": "2026-10-29T00:00:00+00:00",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "http://kvert.febras.net/van/index?type=2",
+      "stale": false
+     }
+    ],
+    "290360": [
+     {
+      "volcano_number": 290360,
+      "source": "KVERT",
+      "alert_type": "aviation_code",
+      "level": "YELLOW",
+      "label": "KVERT YELLOW",
+      "issued_at": "2026-10-29T00:00:00+00:00",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "http://kvert.febras.net/van/index?type=2",
+      "stale": false
+     }
+    ],
+    "273070": [
+     {
+      "volcano_number": 273070,
+      "source": "PHIVOLCS",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PHIVOLCS Alert Level 1 · Low-level unrest",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin",
+      "stale": false
+     }
+    ],
+    "272020": [
+     {
+      "volcano_number": 272020,
+      "source": "PHIVOLCS",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "PHIVOLCS Alert Level 2 · Increasing unrest",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin",
+      "stale": false
+     }
+    ],
+    "273010": [
+     {
+      "volcano_number": 273010,
+      "source": "PHIVOLCS",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "PHIVOLCS Alert Level 1 · Low-level unrest",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin",
+      "stale": false
+     }
+    ],
+    "273083": [
+     {
+      "volcano_number": 273083,
+      "source": "PHIVOLCS",
+      "alert_type": "volcano_level",
+      "level": "0",
+      "label": "PHIVOLCS Alert Level 0 · No alert / Normal",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin",
+      "stale": false
+     }
+    ],
+    "273030": [
+     {
+      "volcano_number": 273030,
+      "source": "PHIVOLCS",
+      "alert_type": "volcano_level",
+      "level": "3",
+      "label": "PHIVOLCS Alert Level 3 · Intensified / magmatic unrest",
+      "issued_at": null,
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:12:58+00:00",
+      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin",
+      "stale": false
+     },
+     {
+      "volcano_number": 273030,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Darwin VAAC VAA",
+      "issued_at": "20261030/0523Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "285050": [
+     {
+      "volcano_number": 285050,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2026-10-16 01:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "284061": [
+     {
+      "volcano_number": 284061,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "1",
+      "label": "JMA Level 1",
+      "issued_at": "2026-10-08 02:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "285020": [
+     {
+      "volcano_number": 285020,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2026-10-01 22:30 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "284096": [
+     {
+      "volcano_number": 284096,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2026-09-08 02:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "282110": [
+     {
+      "volcano_number": 282110,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2026-09-01 07:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "282090": [
+     {
+      "volcano_number": 282090,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2025-10-17 02:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "285070": [
+     {
+      "volcano_number": 285070,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2025-09-15 06:20 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "284080": [
+     {
+      "volcano_number": 284080,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "3",
+      "label": "JMA Level 3",
+      "issued_at": "2024-09-19 02:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "282030": [
+     {
+      "volcano_number": 282030,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2024-03-27 02:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "282080": [
+     {
+      "volcano_number": 282080,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "3",
+      "label": "JMA Level 3",
+      "issued_at": "2022-07-27 11:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "284130": [
+     {
+      "volcano_number": 284130,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "3",
+      "label": "JMA Level 3",
+      "issued_at": "2021-08-16 05:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "282070": [
+     {
+      "volcano_number": 282070,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2021-03-08 05:00 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "284120": [
+     {
+      "volcano_number": 284120,
+      "source": "JMA",
+      "alert_type": "volcano_level",
+      "level": "2",
+      "label": "JMA Level 2",
+      "issued_at": "2007-12-01 01:01 UTC",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.jma.go.jp/bosai/map.html#contents=volcano",
+      "stale": false
+     }
+    ],
+    "252010": [
+     {
+      "volcano_number": 252010,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Darwin VAAC VAA",
+      "issued_at": "20261030/0457Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "211060": [
+     {
+      "volcano_number": 211060,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Toulouse VAAC VAA",
+      "issued_at": "20261030/0600Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "342090": [
+     {
+      "volcano_number": 342090,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Washington VAAC VAA",
+      "issued_at": "20261030/0712Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "352090": [
+     {
+      "volcano_number": 352090,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Washington VAAC VAA",
+      "issued_at": "20261030/0539Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "342030": [
+     {
+      "volcano_number": 342030,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Washington VAAC VAA",
+      "issued_at": "20261030/0528Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "352010": [
+     {
+      "volcano_number": 352010,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Washington VAAC VAA",
+      "issued_at": "20261030/0422Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "351060": [
+     {
+      "volcano_number": 351060,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Washington VAAC VAA",
+      "issued_at": "20261030/0240Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ],
+    "341090": [
+     {
+      "volcano_number": 341090,
+      "source": "VAAC",
+      "alert_type": "vaa",
+      "level": "ACTIVE",
+      "label": "Washington VAAC VAA",
+      "issued_at": "20261029/2256Z",
+      "observed_at": null,
+      "fetched_at": "2026-10-30T07:20:22+00:00",
+      "source_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+      "stale": false
+     }
+    ]
+   },
+   "sources": {
+    "JMA": {
+     "source": "JMA",
+     "last_success": "2026-10-30T07:20:22+00:00",
+     "last_attempt": "2026-10-30T07:20:22+00:00",
+     "status": "ok",
+     "error": null
+    },
+    "PVMBG": {
+     "source": "PVMBG",
+     "last_success": "2026-10-30T07:12:58+00:00",
+     "last_attempt": "2026-10-30T07:12:58+00:00",
+     "status": "ok",
+     "error": null
+    },
+    "KVERT": {
+     "source": "KVERT",
+     "last_success": "2026-10-30T07:12:58+00:00",
+     "last_attempt": "2026-10-30T07:12:58+00:00",
+     "status": "ok",
+     "error": null
+    },
+    "VAAC": {
+     "source": "VAAC",
+     "last_success": "2026-10-30T07:20:22+00:00",
+     "last_attempt": "2026-10-30T07:20:22+00:00",
+     "status": "ok",
+     "error": null
+    },
+    "PHIVOLCS": {
+     "source": "PHIVOLCS",
+     "last_success": "2026-10-30T07:12:58+00:00",
+     "last_attempt": "2026-10-30T07:12:58+00:00",
+     "status": "ok",
+     "error": null
+    }
+   }
+  },
+  "vaac_rows": [
+   {
+    "volcano": "NEVADOS DE CHILLAN",
+    "advisory": "2026/044",
+    "eruption": "NO VA EMISSION",
+    "datetime": "20261030/0050Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Buenos Aires VAAC",
+    "issuer": "BUENOS AIRES",
+    "eruption_details": "NO VA EMISSION",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   },
+   {
+    "volcano": "NEVADOS DE CHILLAN",
+    "advisory": "2026/043",
+    "eruption": "SPORADIC EMISSION OF VA",
+    "datetime": "20261029/1850Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Buenos Aires VAAC",
+    "issuer": "BUENOS AIRES",
+    "eruption_details": "SPORADIC EMISSION OF VA",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0050Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "NEVADOS DE CHILLAN",
+    "advisory": "2026/042",
+    "eruption": "PUFF EMISSION AT 29/1130Z",
+    "datetime": "20261029/1250Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Buenos Aires VAAC",
+    "issuer": "BUENOS AIRES",
+    "eruption_details": "PUFF EMISSION AT 29/1130Z",
+    "next_advisory": "WILL BE ISSUED BY 20261029/1850Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "DUKONO",
+    "advisory": "2026/941",
+    "eruption": "CONTINUOUS VA OBS TO FL080 AT 30/0650Z MOV",
+    "datetime": "20261030/0720Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "CONTINUOUS VA OBS TO FL080 AT 30/0650Z MOV",
+    "next_advisory": "NO LATER THAN 20261030/1320Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "KRAKATAU",
+    "advisory": "2026/267",
+    "eruption": "VA LAST OBS TO FL080 AT 30/0210Z MOV W",
+    "datetime": "20261030/0641Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA LAST OBS TO FL080 AT 30/0210Z MOV W",
+    "next_advisory": "NO LATER THAN 20261030/1241Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "MAYON",
+    "advisory": "2026/25",
+    "eruption": "UNKNOWN",
+    "datetime": "20261030/0523Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "UNKNOWN",
+    "next_advisory": "NO LATER THAN 20261030/1123Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "LANGILA",
+    "advisory": "2026/55",
+    "eruption": "VA TO FL080 OBS AT 30/0430Z MOV WNW",
+    "datetime": "20261030/0457Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL080 OBS AT 30/0430Z MOV WNW",
+    "next_advisory": "NO LATER THAN 20261030/1057Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "IBU",
+    "advisory": "2026/1232",
+    "eruption": "VA TO FL070 OBS AT 30/0300Z MOV W",
+    "datetime": "20261030/0330Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL070 OBS AT 30/0300Z MOV W",
+    "next_advisory": "NO LATER THAN 20261030/0930Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SEMERU",
+    "advisory": "2026/1239",
+    "eruption": "ERUPTION TO FL150 LAST REPORTED AT",
+    "datetime": "20261030/0310Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "ERUPTION TO FL150 LAST REPORTED AT",
+    "next_advisory": "NO LATER THAN 20261030/0910Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "DUKONO",
+    "advisory": "2026/940",
+    "eruption": "CONTINUOUS VA LAST OBS TO FL080 AT",
+    "datetime": "20261030/0120Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "CONTINUOUS VA LAST OBS TO FL080 AT",
+    "next_advisory": "NO LATER THAN 20261030/0720Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "KRAKATAU",
+    "advisory": "2026/266",
+    "eruption": "VA OBS TO FL080 AT 30/0020Z MOV W",
+    "datetime": "20261030/0041Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA OBS TO FL080 AT 30/0020Z MOV W",
+    "next_advisory": "NO LATER THAN 20261030/0641Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "DUKONO",
+    "advisory": "2026/939",
+    "eruption": "CONTINUOUS VA LAST OBS AT 29/2240Z MOV W",
+    "datetime": "20261029/2300Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "CONTINUOUS VA LAST OBS AT 29/2240Z MOV W",
+    "next_advisory": "NO LATER THAN 20261030/0500Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "LANGILA",
+    "advisory": "2026/54",
+    "eruption": "VA TO FL080 OBS AT 29/2240Z MOV NW",
+    "datetime": "20261029/2257Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL080 OBS AT 29/2240Z MOV NW",
+    "next_advisory": "NO LATER THAN 20261030/0457Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "LANGILA",
+    "advisory": "2026/53",
+    "eruption": "VA TO FL070 LAST OBS AT 29/1550Z MOV NW",
+    "datetime": "20261029/2151Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL070 LAST OBS AT 29/1550Z MOV NW",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   },
+   {
+    "volcano": "IBU",
+    "advisory": "2026/1231",
+    "eruption": "VA TO FL070 LAST OBS AT 29/1830Z MOV W",
+    "datetime": "20261029/2130Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL070 LAST OBS AT 29/1830Z MOV W",
+    "next_advisory": "NO LATER THAN 20261030/0330Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SEMERU",
+    "advisory": "2026/1238",
+    "eruption": "ERUPTION LAST REPORTED AT 29/1723Z",
+    "datetime": "20261029/2110Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "ERUPTION LAST REPORTED AT 29/1723Z",
+    "next_advisory": "NO LATER THAN 20261030/0310Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "KRAKATAU",
+    "advisory": "2026/265",
+    "eruption": "ERUPTION REPORTED AT 29/1840Z",
+    "datetime": "20261029/1910Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "ERUPTION REPORTED AT 29/1840Z",
+    "next_advisory": "NO LATER THAN 20261030/0110Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "DUKONO",
+    "advisory": "2026/938",
+    "eruption": "CONTINUOUS VA LAST OBS AT 29/0810Z MOV NW",
+    "datetime": "20261029/1700Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "CONTINUOUS VA LAST OBS AT 29/0810Z MOV NW",
+    "next_advisory": "NO LATER THAN 20261029/2300Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "LANGILA",
+    "advisory": "2026/52",
+    "eruption": "VA TO FL070 OBS AT 29/1000Z MOV NW",
+    "datetime": "20261029/1620Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL070 OBS AT 29/1000Z MOV NW",
+    "next_advisory": "NO LATER THAN 20261029/2220Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "IBU",
+    "advisory": "2026/1230",
+    "eruption": "VA TO FL070 OBS AT 29/1510Z",
+    "datetime": "20261029/1530Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL070 OBS AT 29/1510Z",
+    "next_advisory": "NO LATER THAN 20261029/2130Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "KRAKATAU",
+    "advisory": "2026/264",
+    "eruption": "ERUPTION REPORTED AT 29/1444Z",
+    "datetime": "20261029/1513Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "ERUPTION REPORTED AT 29/1444Z",
+    "next_advisory": "NO LATER THAN 20261029/2113Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SEMERU",
+    "advisory": "2026/1237",
+    "eruption": "ERUPTION LAST REPORTED AT 29/1240Z",
+    "datetime": "20261029/1510Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "ERUPTION LAST REPORTED AT 29/1240Z",
+    "next_advisory": "NO LATER THAN 20261029/2110Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "DUKONO",
+    "advisory": "2026/937",
+    "eruption": "CONTINUOUS VA LAST OBS AT 29/0810Z MOV NW",
+    "datetime": "20261029/1100Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "CONTINUOUS VA LAST OBS AT 29/0810Z MOV NW",
+    "next_advisory": "NO LATER THAN 20261029/1700Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "LANGILA",
+    "advisory": "2026/51",
+    "eruption": "VA TO FL070 OBS AT 29/1000Z MOV NW",
+    "datetime": "20261029/1020Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "VA TO FL070 OBS AT 29/1000Z MOV NW",
+    "next_advisory": "NO LATER THAN 20261029/1620Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "IBU",
+    "advisory": "2026/1229",
+    "eruption": "ERUPTION LAST REPORTED AT 29/0756Z",
+    "datetime": "20261029/0930Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "ERUPTION LAST REPORTED AT 29/0756Z",
+    "next_advisory": "NO LATER THAN 20261029/1530Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SEMERU",
+    "advisory": "2026/1236",
+    "eruption": "ERUPTION LAST REPORTED AT 29/0406Z",
+    "datetime": "20261029/0910Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Darwin VAAC",
+    "issuer": "DARWIN",
+    "eruption_details": "ERUPTION LAST REPORTED AT 29/0406Z",
+    "next_advisory": "NO LATER THAN 20261029/1510Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "MAYON",
+    "advisory": "2026/811",
+    "eruption": "ERUPTION AT 20261030/0353Z FL180 EXTD WSW REPORTED",
+    "datetime": "20261030/0507Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Tokyo VAAC",
+    "issuer": "TOKYO",
+    "eruption_details": "ERUPTION AT 20261030/0353Z FL180 EXTD WSW REPORTED",
+    "next_advisory": "20261030/0900Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SAKURAJIMA [AIRA CALDERA]",
+    "advisory": "2026/335",
+    "eruption": "ERUPTED AT 20261030/0451Z OVER FL090 EXTD E",
+    "datetime": "20261030/0503Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Tokyo VAAC",
+    "issuer": "TOKYO",
+    "eruption_details": "ERUPTED AT 20261030/0451Z OVER FL090 EXTD E",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   },
+   {
+    "volcano": "MAYON",
+    "advisory": "2026/810",
+    "eruption": "ERUPTION AT 20261030/0353Z FL180 EXTD WSW REPORTED",
+    "datetime": "20261030/0413Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Tokyo VAAC",
+    "issuer": "TOKYO",
+    "eruption_details": "ERUPTION AT 20261030/0353Z FL180 EXTD WSW REPORTED",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   },
+   {
+    "volcano": "SAKURAJIMA [AIRA CALDERA]",
+    "advisory": "2026/334",
+    "eruption": "VA AT 20261030/0305Z 12NM SE OF RJFK FL090 STNR",
+    "datetime": "20261030/0332Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Tokyo VAAC",
+    "issuer": "TOKYO",
+    "eruption_details": "VA AT 20261030/0305Z 12NM SE OF RJFK FL090 STNR",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   },
+   {
+    "volcano": "SAKURAJIMA [AIRA CALDERA]",
+    "advisory": "2026/333",
+    "eruption": "ERUPTED AT 20261030/0303Z FL080 EXTD E",
+    "datetime": "20261030/0312Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Tokyo VAAC",
+    "issuer": "TOKYO",
+    "eruption_details": "ERUPTED AT 20261030/0303Z FL080 EXTD E",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   },
+   {
+    "volcano": "ETNA",
+    "advisory": "2026/209",
+    "eruption": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "datetime": "20261030/0600Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Toulouse VAAC",
+    "issuer": "TOULOUSE",
+    "eruption_details": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "next_advisory": "NO LATER THAN 20261030/0600Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "ETNA",
+    "advisory": "2026/208",
+    "eruption": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "datetime": "20261030/0000Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Toulouse VAAC",
+    "issuer": "TOULOUSE",
+    "eruption_details": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "next_advisory": "NO LATER THAN 20261030/0600Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "ETNA",
+    "advisory": "2026/207",
+    "eruption": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "datetime": "20261029/1853Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Toulouse VAAC",
+    "issuer": "TOULOUSE",
+    "eruption_details": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "next_advisory": "NO LATER THAN 20261029/0000Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "ETNA",
+    "advisory": "2026/206",
+    "eruption": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "datetime": "20261029/1300Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Toulouse VAAC",
+    "issuer": "TOULOUSE",
+    "eruption_details": "ERUPTION AT 20261029/0600Z FEEBLE ASH EMISSION",
+    "next_advisory": "NO LATER THAN 20261029/1900Z=",
+    "is_terminal": false
+   },
+   {
+    "volcano": "FUEGO",
+    "advisory": "2026/1258",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261030/0712Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/1315Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANGAY",
+    "advisory": "2026/735",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261030/0539Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/1200Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANTA MARIA",
+    "advisory": "2026/637",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261030/0528Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/1130Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "POPOCATEPETL",
+    "advisory": "2026/375",
+    "eruption": "VA EMS ENDED",
+    "datetime": "20261030/0438Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "VA EMS ENDED",
+    "next_advisory": "NO FURTHER ADVISORIES",
+    "is_terminal": true
+   },
+   {
+    "volcano": "REVENTADOR",
+    "advisory": "2026/1142",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261030/0422Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/1015Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "PURACE",
+    "advisory": "2026/679",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261030/0240Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0845Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "FUEGO",
+    "advisory": "2026/1257",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261030/0137Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0730Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANGAY",
+    "advisory": "2026/734",
+    "eruption": "VA EMS OBS",
+    "datetime": "20261029/2338Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "VA EMS OBS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0545Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANTA MARIA",
+    "advisory": "2026/636",
+    "eruption": "VA EMS PSBL",
+    "datetime": "20261029/2325Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "VA EMS PSBL",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0530Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "POPOCATEPETL",
+    "advisory": "2026/374",
+    "eruption": "OCNL VA EMS",
+    "datetime": "20261029/2256Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "OCNL VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0500Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "REVENTADOR",
+    "advisory": "2026/1141",
+    "eruption": "OCNL VA EMS",
+    "datetime": "20261029/2232Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "OCNL VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0430Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANGAY",
+    "advisory": "2026/733",
+    "eruption": "OCNL VA EMS",
+    "datetime": "20261029/2110Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "OCNL VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0315Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "PURACE",
+    "advisory": "2026/678",
+    "eruption": "VA EMS RPRTD",
+    "datetime": "20261029/2045Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "VA EMS RPRTD",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0245Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "REVENTADOR",
+    "advisory": "2026/1140",
+    "eruption": "OCNL VA EMS",
+    "datetime": "20261029/2013Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "OCNL VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0215Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "FUEGO",
+    "advisory": "2026/1256",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261029/1942Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261030/0145Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANTA MARIA",
+    "advisory": "2026/635",
+    "eruption": "OCNL VA EMS",
+    "datetime": "20261029/1724Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "OCNL VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261029/2330Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "POPOCATEPETL",
+    "advisory": "2026/373",
+    "eruption": "OCNL VA EMS",
+    "datetime": "20261029/1653Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "OCNL VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261029/2300Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANGAY",
+    "advisory": "2026/732",
+    "eruption": "VA EMS LIKELY",
+    "datetime": "20261029/1511Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "VA EMS LIKELY",
+    "next_advisory": "WILL BE ISSUED BY 20261029/2115Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "PURACE",
+    "advisory": "2026/677",
+    "eruption": "RCNT VONA RPRT",
+    "datetime": "20261029/1454Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "RCNT VONA RPRT",
+    "next_advisory": "WILL BE ISSUED BY 20261029/2100Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "REVENTADOR",
+    "advisory": "2026/1139",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261029/1444Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261029/2045Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "FUEGO",
+    "advisory": "2026/1255",
+    "eruption": "VA MOVG SW",
+    "datetime": "20261029/1356Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "VA MOVG SW",
+    "next_advisory": "WILL BE ISSUED BY 20261029/2000Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANTA MARIA",
+    "advisory": "2026/634",
+    "eruption": "LGT VA EMS",
+    "datetime": "20261029/1134Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "LGT VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261029/1730Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "POPOCATEPETL",
+    "advisory": "2026/372",
+    "eruption": "MINOR VA EMS",
+    "datetime": "20261029/1053Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "MINOR VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261029/1700Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "SANGAY",
+    "advisory": "2026/731",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261029/0912Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261029/1515Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "REVENTADOR",
+    "advisory": "2026/1138",
+    "eruption": "ONGOING VA EMS",
+    "datetime": "20261029/0854Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "ONGOING VA EMS",
+    "next_advisory": "WILL BE ISSUED BY 20261029/1500Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "FUEGO",
+    "advisory": "2026/1254",
+    "eruption": "VA EMS ONGOING",
+    "datetime": "20261029/0824Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Washington VAAC",
+    "issuer": "WASHINGTON",
+    "eruption_details": "VA EMS ONGOING",
+    "next_advisory": "WILL BE ISSUED BY 20261029/1430Z",
+    "is_terminal": false
+   },
+   {
+    "volcano": "UNKNOWN",
+    "advisory": "2026/10",
+    "eruption": "NIL",
+    "datetime": "20261030/0504Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Wellington VAAC",
+    "issuer": "WELLINGTON",
+    "eruption_details": "NIL",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   },
+   {
+    "volcano": "NOTICE",
+    "advisory": "2026/11",
+    "eruption": "NIL",
+    "datetime": "20261030/0459Z",
+    "detail_url": "https://www.bom.gov.au/products/Volc_ash_latest.shtml",
+    "source": "Wellington VAAC",
+    "issuer": "WELLINGTON",
+    "eruption_details": "NIL",
+    "next_advisory": "NO FURTHER ADVISORIES=",
+    "is_terminal": true
+   }
+  ],
+  "jma_raw": {
+   "Tokachidake": 2,
+   "Beyonesu(Bayonnaise) Rocks": 1,
+   "Hokkaido-Komagatake": 2,
+   "Nishinoshima": 2,
+   "Asosan": 2,
+   "Kirishimayama(Shinmoedake)": 2,
+   "Meakandake": 2,
+   "Sumisujima(Smith Rocks)": 3,
+   "Suwanosejima": 2,
+   "Sakurajima": 3,
+   "Fukutoku-Oka-no-Ba": 3,
+   "Satsuma-Iojima": 2,
+   "Ioto": 2
+  },
+  "jma_issued": {
+   "Tokachidake": "2026-10-16 01:00 UTC",
+   "Beyonesu(Bayonnaise) Rocks": "2026-10-08 02:00 UTC",
+   "Hokkaido-Komagatake": "2026-10-01 22:30 UTC",
+   "Nishinoshima": "2026-09-08 02:00 UTC",
+   "Asosan": "2026-09-01 07:00 UTC",
+   "Kirishimayama(Shinmoedake)": "2025-10-17 02:00 UTC",
+   "Meakandake": "2025-09-15 06:20 UTC",
+   "Sumisujima(Smith Rocks)": "2024-09-19 02:00 UTC",
+   "Suwanosejima": "2024-03-27 02:00 UTC",
+   "Sakurajima": "2022-07-27 11:00 UTC",
+   "Fukutoku-Oka-no-Ba": "2021-08-16 05:00 UTC",
+   "Satsuma-Iojima": "2021-03-08 05:00 UTC",
+   "Ioto": "2007-12-01 01:01 UTC"
+  },
+  "mirova_rows": [
+   {
+    "volcano": "Nyiragongo",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 223030,
+    "time": "29-Oct-2026 23:24:02",
+    "vrp_mw": "67.82",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "Nyamuragira",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 223020,
+    "time": "29-Oct-2026 23:24:02",
+    "vrp_mw": "312.15",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "Nyiragongo",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 223030,
+    "time": "29-Oct-2026 23:24:02",
+    "vrp_mw": "16.73",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Nyamuragira",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 223020,
+    "time": "29-Oct-2026 23:24:02",
+    "vrp_mw": "275.05",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Fentale",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 221190,
+    "time": "29-Oct-2026 23:24:02",
+    "vrp_mw": "1.24",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Karymsky",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 300130,
+    "time": "29-Oct-2026 22:25:00",
+    "vrp_mw": "0.47",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Gorely",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 300070,
+    "time": "29-Oct-2026 22:25:00",
+    "vrp_mw": "2.24",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Semisopochnoi",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 311060,
+    "time": "29-Oct-2026 22:25:00",
+    "vrp_mw": "6.28",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Kliuchevskoi",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 300260,
+    "time": "29-Oct-2026 22:25:00",
+    "vrp_mw": "0.36",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Krasheninnikov",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 300190,
+    "time": "29-Oct-2026 22:25:00",
+    "vrp_mw": "22.63",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Ambrym",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 257040,
+    "time": "29-Oct-2026 21:05:00",
+    "vrp_mw": "158.92",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Telica",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 344040,
+    "time": "29-Oct-2026 19:48:00",
+    "vrp_mw": "2.54",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "ChillanNevadosde",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 357070,
+    "time": "29-Oct-2026 19:36:00",
+    "vrp_mw": "36.23",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "ChillanNevadosde",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 357070,
+    "time": "29-Oct-2026 19:36:00",
+    "vrp_mw": "17.68",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Karangetang",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 267020,
+    "time": "29-Oct-2026 19:35:00",
+    "vrp_mw": "8.82",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Merapi",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 263250,
+    "time": "29-Oct-2026 19:00:00",
+    "vrp_mw": "0.29",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Stromboli",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 211040,
+    "time": "29-Oct-2026 18:45:00",
+    "vrp_mw": "11.98",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Etna",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 211060,
+    "time": "29-Oct-2026 18:45:00",
+    "vrp_mw": "0.46",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Nyamuragira",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 223020,
+    "time": "29-Oct-2026 18:35:00",
+    "vrp_mw": "100.13",
+    "sensor": "MODIS"
+   },
+   {
+    "volcano": "Semeru",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 263300,
+    "time": "29-Oct-2026 18:24:02",
+    "vrp_mw": "22.30",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Raung",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 263340,
+    "time": "29-Oct-2026 18:24:02",
+    "vrp_mw": "0.66",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Semeru",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 263300,
+    "time": "29-Oct-2026 18:24:02",
+    "vrp_mw": "73.30",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "Pinatubo",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 273083,
+    "time": "29-Oct-2026 18:12:02",
+    "vrp_mw": "0.09",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Karangetang",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 267020,
+    "time": "29-Oct-2026 17:36:01",
+    "vrp_mw": "10.12",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "SangeangApi",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 264050,
+    "time": "29-Oct-2026 17:36:01",
+    "vrp_mw": "0.30",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Soputan",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 266030,
+    "time": "29-Oct-2026 17:36:01",
+    "vrp_mw": "0.43",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Lewotolo",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 264230,
+    "time": "29-Oct-2026 17:36:01",
+    "vrp_mw": "6.73",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "Ibu",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 268030,
+    "time": "29-Oct-2026 17:36:01",
+    "vrp_mw": "0.46",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Lewotolo",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 264230,
+    "time": "29-Oct-2026 17:36:01",
+    "vrp_mw": "12.04",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Karangetang",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 267020,
+    "time": "29-Oct-2026 17:36:01",
+    "vrp_mw": "11.04",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Mayon",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 273030,
+    "time": "29-Oct-2026 17:30:01",
+    "vrp_mw": "2.39",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Anatahan",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 284200,
+    "time": "29-Oct-2026 16:30:02",
+    "vrp_mw": "0.06",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "Bagana",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 255020,
+    "time": "29-Oct-2026 15:54:01",
+    "vrp_mw": "0.15",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Langila",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 252010,
+    "time": "29-Oct-2026 15:54:01",
+    "vrp_mw": "1.32",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "LongIsland",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 251050,
+    "time": "29-Oct-2026 15:54:01",
+    "vrp_mw": "3.01",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Manam",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 251020,
+    "time": "29-Oct-2026 15:54:01",
+    "vrp_mw": "2.07",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Rabaul",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 252140,
+    "time": "29-Oct-2026 15:54:01",
+    "vrp_mw": "2.96",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Ulawun",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 252120,
+    "time": "29-Oct-2026 15:54:01",
+    "vrp_mw": "0.06",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Yasur",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 257100,
+    "time": "29-Oct-2026 14:18:01",
+    "vrp_mw": "10.77",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Ambrym",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 257040,
+    "time": "29-Oct-2026 14:18:01",
+    "vrp_mw": "32.92",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Yasur",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 257100,
+    "time": "29-Oct-2026 14:18:01",
+    "vrp_mw": "13.00",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "Ambrym",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 257040,
+    "time": "29-Oct-2026 14:18:01",
+    "vrp_mw": "104.76",
+    "sensor": "VIIRS"
+   },
+   {
+    "volcano": "Aoba",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 257030,
+    "time": "29-Oct-2026 14:18:01",
+    "vrp_mw": "0.79",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "HomeReef",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 243080,
+    "time": "29-Oct-2026 14:00:00",
+    "vrp_mw": "0.30",
+    "sensor": "VIIRS375"
+   },
+   {
+    "volcano": "Stromboli",
+    "our_name": null,
+    "is_target": false,
+    "volcano_id": 211040,
+    "time": "29-Oct-2026 13:12:00",
+    "vrp_mw": "29.12",
+    "sensor": "VIIRS375"
+   }
+  ],
+  "timestamp": "2026-10-30 07:35 UTC",
+  "sig": "reference"
+ },
+ "expected": {
+  "211040": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#f1c40f",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 13:12:00"
+   }
+  },
+  "211060": {
+   "size": 24,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 06:00Z"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 4,
+    "mirovaTime": "29-Oct-2026 18:45:00"
+   }
+  },
+  "221190": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 23:24:02"
+   }
+  },
+  "223030": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#f1c40f",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 23:24:02"
+   }
+  },
+  "243080": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 14:00:00"
+   }
+  },
+  "251020": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 15:54:01"
+   }
+  },
+  "251050": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 15:54:01"
+   }
+  },
+  "252010": {
+   "size": 24,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 04:57Z"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 4,
+    "mirovaTime": "29-Oct-2026 15:54:01"
+   }
+  },
+  "252120": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 15:54:01"
+   }
+  },
+  "252140": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 15:54:01"
+   }
+  },
+  "255020": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 15:54:01"
+   }
+  },
+  "257040": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#e67e22",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 21:05:00"
+   }
+  },
+  "257100": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#f1c40f",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 14:18:01"
+   }
+  },
+  "261050": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "261080": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "261120": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "261140": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "261170": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "261230": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "262000": {
+   "size": 24,
+   "fill": "#FF8C00",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 06:41Z"
+   },
+   "extra": {
+    "officialLine": "PVMBG Level III (Siaga)",
+    "jmaIssued": null,
+    "vaaCurrent": 4,
+    "mirovaTime": null
+   }
+  },
+  "263180": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "263250": {
+   "size": 18,
+   "fill": "#FF8C00",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level III (Siaga)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 19:00:00"
+   }
+  },
+  "263300": {
+   "size": 24,
+   "fill": "#FF8C00",
+   "stroke": "#f1c40f",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 03:10Z"
+   },
+   "extra": {
+    "officialLine": "PVMBG Level III (Siaga)",
+    "jmaIssued": null,
+    "vaaCurrent": 4,
+    "mirovaTime": "29-Oct-2026 18:24:02"
+   }
+  },
+  "263310": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "263340": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 18:24:02"
+   }
+  },
+  "264030": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "264040": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "264050": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 17:36:01"
+   }
+  },
+  "264071": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "264110": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "264180": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "264230": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "265090": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "266030": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 17:36:01"
+   }
+  },
+  "266100": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "267020": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#f1c40f",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 17:36:01"
+   }
+  },
+  "267040": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "268010": {
+   "size": 24,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 07:20Z"
+   },
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 5,
+    "mirovaTime": null
+   }
+  },
+  "268030": {
+   "size": 24,
+   "fill": "#FFD400",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 03:30Z"
+   },
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 4,
+    "mirovaTime": "29-Oct-2026 17:36:01"
+   }
+  },
+  "268060": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PVMBG Level II (Waspada)",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "272020": {
+   "size": 18,
+   "fill": "#FF8C00",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PHIVOLCS Alert Level 2 · Increasing unrest",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "273010": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PHIVOLCS Alert Level 1 · Low-level unrest",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "273030": {
+   "size": 24,
+   "fill": "#E02020",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 05:23Z"
+   },
+   "extra": {
+    "officialLine": "PHIVOLCS Alert Level 3 · Intensified / magmatic unrest",
+    "jmaIssued": null,
+    "vaaCurrent": 2,
+    "mirovaTime": "29-Oct-2026 17:30:01"
+   }
+  },
+  "273070": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PHIVOLCS Alert Level 1 · Low-level unrest",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "273083": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "PHIVOLCS Alert Level 0 · No alert / Normal",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 18:12:02"
+   }
+  },
+  "282030": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Mar 27, 2024 02:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "282070": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Mar 08, 2021 05:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "282080": {
+   "size": 18,
+   "fill": "#FF8C00",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "ended",
+    "timeLine": "VAAC Oct 30 05:03Z · final"
+   },
+   "extra": {
+    "officialLine": "JMA Level 3",
+    "jmaIssued": "Jul 27, 2022 11:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "282090": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Oct 17, 2025 02:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "282110": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Sep 01, 2026 07:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "284080": {
+   "size": 18,
+   "fill": "#FF8C00",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 3",
+    "jmaIssued": "Sep 19, 2024 02:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "284096": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Sep 08, 2026 02:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "284120": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Dec 01, 2007 01:01 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "284130": {
+   "size": 18,
+   "fill": "#FF8C00",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 3",
+    "jmaIssued": "Aug 16, 2021 05:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "284200": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 16:30:02"
+   }
+  },
+  "285020": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Oct 01, 2026 22:30 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "285050": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Oct 16, 2026 01:00 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "285070": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "JMA Level 2",
+    "jmaIssued": "Sep 15, 2025 06:20 UTC",
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "290360": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "KVERT YELLOW",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "300070": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 22:25:00"
+   }
+  },
+  "300130": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 22:25:00"
+   }
+  },
+  "300190": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#f1c40f",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "KVERT YELLOW",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 22:25:00"
+   }
+  },
+  "300250": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "KVERT YELLOW",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "300260": {
+   "size": 18,
+   "fill": "#FFD400",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "KVERT YELLOW",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "300270": {
+   "size": 18,
+   "fill": "#FF8C00",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "KVERT ORANGE",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "311060": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 22:25:00"
+   }
+  },
+  "341090": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "ended",
+    "timeLine": "VAAC Oct 30 04:38Z · final"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": null
+   }
+  },
+  "342030": {
+   "size": 24,
+   "fill": "transparent",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 05:28Z"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 4,
+    "mirovaTime": null
+   }
+  },
+  "342090": {
+   "size": 24,
+   "fill": "transparent",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 07:12Z"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 5,
+    "mirovaTime": null
+   }
+  },
+  "344040": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#2ecc71",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 19:48:00"
+   }
+  },
+  "351060": {
+   "size": 24,
+   "fill": "transparent",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 02:40Z"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 3,
+    "mirovaTime": null
+   }
+  },
+  "352010": {
+   "size": 24,
+   "fill": "transparent",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 04:22Z"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 5,
+    "mirovaTime": null
+   }
+  },
+  "352090": {
+   "size": 24,
+   "fill": "transparent",
+   "stroke": "#ffffff",
+   "width": 1.7,
+   "opacity": 1.0,
+   "bubble": {
+    "kind": "blink",
+    "timeLine": "VAAC Oct 30 05:39Z"
+   },
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 5,
+    "mirovaTime": null
+   }
+  },
+  "357070": {
+   "size": 18,
+   "fill": "transparent",
+   "stroke": "#f1c40f",
+   "width": 3.4,
+   "opacity": 1.0,
+   "bubble": null,
+   "extra": {
+    "officialLine": "Official alert: not available",
+    "jmaIssued": null,
+    "vaaCurrent": 0,
+    "mirovaTime": "29-Oct-2026 19:36:00"
+   }
+  }
+ },
+ "timeCases": [
+  {
+   "raw": "",
+   "label": "Time not available",
+   "short": "Time not available"
+  },
+  {
+   "raw": "2007-12-01 01:01 UTC",
+   "label": "Dec 01, 2007 01:01 UTC",
+   "short": "Dec 01 01:01Z"
+  },
+  {
+   "raw": "2021-03-08 05:00 UTC",
+   "label": "Mar 08, 2021 05:00 UTC",
+   "short": "Mar 08 05:00Z"
+  },
+  {
+   "raw": "2021-08-16 05:00 UTC",
+   "label": "Aug 16, 2021 05:00 UTC",
+   "short": "Aug 16 05:00Z"
+  },
+  {
+   "raw": "2022-07-27 11:00 UTC",
+   "label": "Jul 27, 2022 11:00 UTC",
+   "short": "Jul 27 11:00Z"
+  },
+  {
+   "raw": "2024-03-27 02:00 UTC",
+   "label": "Mar 27, 2024 02:00 UTC",
+   "short": "Mar 27 02:00Z"
+  },
+  {
+   "raw": "2024-09-19 02:00 UTC",
+   "label": "Sep 19, 2024 02:00 UTC",
+   "short": "Sep 19 02:00Z"
+  },
+  {
+   "raw": "2025-09-15 06:20 UTC",
+   "label": "Sep 15, 2025 06:20 UTC",
+   "short": "Sep 15 06:20Z"
+  },
+  {
+   "raw": "2025-10-17 02:00 UTC",
+   "label": "Oct 17, 2025 02:00 UTC",
+   "short": "Oct 17 02:00Z"
+  },
+  {
+   "raw": "2026-09-01 07:00 UTC",
+   "label": "Sep 01, 2026 07:00 UTC",
+   "short": "Sep 01 07:00Z"
+  },
+  {
+   "raw": "2026-09-08 02:00 UTC",
+   "label": "Sep 08, 2026 02:00 UTC",
+   "short": "Sep 08 02:00Z"
+  },
+  {
+   "raw": "2026-10-01 22:30 UTC",
+   "label": "Oct 01, 2026 22:30 UTC",
+   "short": "Oct 01 22:30Z"
+  },
+  {
+   "raw": "2026-10-05T01:02:03Z",
+   "label": "Oct 05, 2026 01:02 UTC",
+   "short": "Oct 05 01:02Z"
+  },
+  {
+   "raw": "2026-10-08 02:00 UTC",
+   "label": "Oct 08, 2026 02:00 UTC",
+   "short": "Oct 08 02:00Z"
+  },
+  {
+   "raw": "2026-10-12 06:04 UTC",
+   "label": "Oct 12, 2026 06:04 UTC",
+   "short": "Oct 12 06:04Z"
+  },
+  {
+   "raw": "2026-10-12T06:04:00+00:00",
+   "label": "Oct 12, 2026 06:04 UTC",
+   "short": "Oct 12 06:04Z"
+  },
+  {
+   "raw": "2026-10-16 01:00 UTC",
+   "label": "Oct 16, 2026 01:00 UTC",
+   "short": "Oct 16 01:00Z"
+  },
+  {
+   "raw": "20261012/0604Z",
+   "label": "Oct 12, 2026 06:04 UTC",
+   "short": "Oct 12 06:04Z"
+  },
+  {
+   "raw": "20261029/0824Z",
+   "label": "Oct 29, 2026 08:24 UTC",
+   "short": "Oct 29 08:24Z"
+  },
+  {
+   "raw": "20261029/0854Z",
+   "label": "Oct 29, 2026 08:54 UTC",
+   "short": "Oct 29 08:54Z"
+  },
+  {
+   "raw": "20261029/0910Z",
+   "label": "Oct 29, 2026 09:10 UTC",
+   "short": "Oct 29 09:10Z"
+  },
+  {
+   "raw": "20261029/0912Z",
+   "label": "Oct 29, 2026 09:12 UTC",
+   "short": "Oct 29 09:12Z"
+  },
+  {
+   "raw": "20261029/0930Z",
+   "label": "Oct 29, 2026 09:30 UTC",
+   "short": "Oct 29 09:30Z"
+  },
+  {
+   "raw": "20261029/1020Z",
+   "label": "Oct 29, 2026 10:20 UTC",
+   "short": "Oct 29 10:20Z"
+  },
+  {
+   "raw": "20261029/1053Z",
+   "label": "Oct 29, 2026 10:53 UTC",
+   "short": "Oct 29 10:53Z"
+  },
+  {
+   "raw": "20261029/1100Z",
+   "label": "Oct 29, 2026 11:00 UTC",
+   "short": "Oct 29 11:00Z"
+  },
+  {
+   "raw": "20261029/1134Z",
+   "label": "Oct 29, 2026 11:34 UTC",
+   "short": "Oct 29 11:34Z"
+  },
+  {
+   "raw": "20261029/1250Z",
+   "label": "Oct 29, 2026 12:50 UTC",
+   "short": "Oct 29 12:50Z"
+  },
+  {
+   "raw": "20261029/1300Z",
+   "label": "Oct 29, 2026 13:00 UTC",
+   "short": "Oct 29 13:00Z"
+  },
+  {
+   "raw": "20261029/1356Z",
+   "label": "Oct 29, 2026 13:56 UTC",
+   "short": "Oct 29 13:56Z"
+  },
+  {
+   "raw": "20261029/1444Z",
+   "label": "Oct 29, 2026 14:44 UTC",
+   "short": "Oct 29 14:44Z"
+  },
+  {
+   "raw": "20261029/1454Z",
+   "label": "Oct 29, 2026 14:54 UTC",
+   "short": "Oct 29 14:54Z"
+  },
+  {
+   "raw": "20261029/1510Z",
+   "label": "Oct 29, 2026 15:10 UTC",
+   "short": "Oct 29 15:10Z"
+  },
+  {
+   "raw": "20261029/1511Z",
+   "label": "Oct 29, 2026 15:11 UTC",
+   "short": "Oct 29 15:11Z"
+  },
+  {
+   "raw": "20261029/1513Z",
+   "label": "Oct 29, 2026 15:13 UTC",
+   "short": "Oct 29 15:13Z"
+  },
+  {
+   "raw": "20261029/1530Z",
+   "label": "Oct 29, 2026 15:30 UTC",
+   "short": "Oct 29 15:30Z"
+  },
+  {
+   "raw": "20261029/1620Z",
+   "label": "Oct 29, 2026 16:20 UTC",
+   "short": "Oct 29 16:20Z"
+  },
+  {
+   "raw": "20261029/1653Z",
+   "label": "Oct 29, 2026 16:53 UTC",
+   "short": "Oct 29 16:53Z"
+  },
+  {
+   "raw": "20261029/1700Z",
+   "label": "Oct 29, 2026 17:00 UTC",
+   "short": "Oct 29 17:00Z"
+  },
+  {
+   "raw": "20261029/1724Z",
+   "label": "Oct 29, 2026 17:24 UTC",
+   "short": "Oct 29 17:24Z"
+  },
+  {
+   "raw": "20261029/1850Z",
+   "label": "Oct 29, 2026 18:50 UTC",
+   "short": "Oct 29 18:50Z"
+  },
+  {
+   "raw": "20261029/1853Z",
+   "label": "Oct 29, 2026 18:53 UTC",
+   "short": "Oct 29 18:53Z"
+  },
+  {
+   "raw": "20261029/1910Z",
+   "label": "Oct 29, 2026 19:10 UTC",
+   "short": "Oct 29 19:10Z"
+  },
+  {
+   "raw": "20261029/1942Z",
+   "label": "Oct 29, 2026 19:42 UTC",
+   "short": "Oct 29 19:42Z"
+  },
+  {
+   "raw": "20261029/2013Z",
+   "label": "Oct 29, 2026 20:13 UTC",
+   "short": "Oct 29 20:13Z"
+  },
+  {
+   "raw": "20261029/2045Z",
+   "label": "Oct 29, 2026 20:45 UTC",
+   "short": "Oct 29 20:45Z"
+  },
+  {
+   "raw": "20261029/2110Z",
+   "label": "Oct 29, 2026 21:10 UTC",
+   "short": "Oct 29 21:10Z"
+  },
+  {
+   "raw": "20261029/2130Z",
+   "label": "Oct 29, 2026 21:30 UTC",
+   "short": "Oct 29 21:30Z"
+  },
+  {
+   "raw": "20261029/2151Z",
+   "label": "Oct 29, 2026 21:51 UTC",
+   "short": "Oct 29 21:51Z"
+  },
+  {
+   "raw": "20261029/2232Z",
+   "label": "Oct 29, 2026 22:32 UTC",
+   "short": "Oct 29 22:32Z"
+  },
+  {
+   "raw": "20261029/2256Z",
+   "label": "Oct 29, 2026 22:56 UTC",
+   "short": "Oct 29 22:56Z"
+  },
+  {
+   "raw": "20261029/2257Z",
+   "label": "Oct 29, 2026 22:57 UTC",
+   "short": "Oct 29 22:57Z"
+  },
+  {
+   "raw": "20261029/2300Z",
+   "label": "Oct 29, 2026 23:00 UTC",
+   "short": "Oct 29 23:00Z"
+  },
+  {
+   "raw": "20261029/2325Z",
+   "label": "Oct 29, 2026 23:25 UTC",
+   "short": "Oct 29 23:25Z"
+  },
+  {
+   "raw": "20261029/2338Z",
+   "label": "Oct 29, 2026 23:38 UTC",
+   "short": "Oct 29 23:38Z"
+  },
+  {
+   "raw": "20261030/0000Z",
+   "label": "Oct 30, 2026 00:00 UTC",
+   "short": "Oct 30 00:00Z"
+  },
+  {
+   "raw": "20261030/0041Z",
+   "label": "Oct 30, 2026 00:41 UTC",
+   "short": "Oct 30 00:41Z"
+  },
+  {
+   "raw": "20261030/0050Z",
+   "label": "Oct 30, 2026 00:50 UTC",
+   "short": "Oct 30 00:50Z"
+  },
+  {
+   "raw": "20261030/0120Z",
+   "label": "Oct 30, 2026 01:20 UTC",
+   "short": "Oct 30 01:20Z"
+  },
+  {
+   "raw": "20261030/0137Z",
+   "label": "Oct 30, 2026 01:37 UTC",
+   "short": "Oct 30 01:37Z"
+  },
+  {
+   "raw": "20261030/0240Z",
+   "label": "Oct 30, 2026 02:40 UTC",
+   "short": "Oct 30 02:40Z"
+  },
+  {
+   "raw": "20261030/0310Z",
+   "label": "Oct 30, 2026 03:10 UTC",
+   "short": "Oct 30 03:10Z"
+  },
+  {
+   "raw": "20261030/0312Z",
+   "label": "Oct 30, 2026 03:12 UTC",
+   "short": "Oct 30 03:12Z"
+  },
+  {
+   "raw": "20261030/0330Z",
+   "label": "Oct 30, 2026 03:30 UTC",
+   "short": "Oct 30 03:30Z"
+  },
+  {
+   "raw": "20261030/0332Z",
+   "label": "Oct 30, 2026 03:32 UTC",
+   "short": "Oct 30 03:32Z"
+  },
+  {
+   "raw": "20261030/0413Z",
+   "label": "Oct 30, 2026 04:13 UTC",
+   "short": "Oct 30 04:13Z"
+  },
+  {
+   "raw": "20261030/0422Z",
+   "label": "Oct 30, 2026 04:22 UTC",
+   "short": "Oct 30 04:22Z"
+  },
+  {
+   "raw": "20261030/0438Z",
+   "label": "Oct 30, 2026 04:38 UTC",
+   "short": "Oct 30 04:38Z"
+  },
+  {
+   "raw": "20261030/0457Z",
+   "label": "Oct 30, 2026 04:57 UTC",
+   "short": "Oct 30 04:57Z"
+  },
+  {
+   "raw": "20261030/0459Z",
+   "label": "Oct 30, 2026 04:59 UTC",
+   "short": "Oct 30 04:59Z"
+  },
+  {
+   "raw": "20261030/0503Z",
+   "label": "Oct 30, 2026 05:03 UTC",
+   "short": "Oct 30 05:03Z"
+  },
+  {
+   "raw": "20261030/0504Z",
+   "label": "Oct 30, 2026 05:04 UTC",
+   "short": "Oct 30 05:04Z"
+  },
+  {
+   "raw": "20261030/0507Z",
+   "label": "Oct 30, 2026 05:07 UTC",
+   "short": "Oct 30 05:07Z"
+  },
+  {
+   "raw": "20261030/0523Z",
+   "label": "Oct 30, 2026 05:23 UTC",
+   "short": "Oct 30 05:23Z"
+  },
+  {
+   "raw": "20261030/0528Z",
+   "label": "Oct 30, 2026 05:28 UTC",
+   "short": "Oct 30 05:28Z"
+  },
+  {
+   "raw": "20261030/0539Z",
+   "label": "Oct 30, 2026 05:39 UTC",
+   "short": "Oct 30 05:39Z"
+  },
+  {
+   "raw": "20261030/0600Z",
+   "label": "Oct 30, 2026 06:00 UTC",
+   "short": "Oct 30 06:00Z"
+  },
+  {
+   "raw": "20261030/0641Z",
+   "label": "Oct 30, 2026 06:41 UTC",
+   "short": "Oct 30 06:41Z"
+  },
+  {
+   "raw": "20261030/0712Z",
+   "label": "Oct 30, 2026 07:12 UTC",
+   "short": "Oct 30 07:12Z"
+  },
+  {
+   "raw": "20261030/0720Z",
+   "label": "Oct 30, 2026 07:20 UTC",
+   "short": "Oct 30 07:20Z"
+  },
+  {
+   "raw": "29-Oct-2026 13:12:00",
+   "label": "Oct 29, 2026 13:12 UTC",
+   "short": "Oct 29 13:12Z"
+  },
+  {
+   "raw": "29-Oct-2026 14:00:00",
+   "label": "Oct 29, 2026 14:00 UTC",
+   "short": "Oct 29 14:00Z"
+  },
+  {
+   "raw": "29-Oct-2026 14:18:01",
+   "label": "Oct 29, 2026 14:18 UTC",
+   "short": "Oct 29 14:18Z"
+  },
+  {
+   "raw": "29-Oct-2026 15:54:01",
+   "label": "Oct 29, 2026 15:54 UTC",
+   "short": "Oct 29 15:54Z"
+  },
+  {
+   "raw": "29-Oct-2026 16:30:02",
+   "label": "Oct 29, 2026 16:30 UTC",
+   "short": "Oct 29 16:30Z"
+  },
+  {
+   "raw": "29-Oct-2026 17:30:01",
+   "label": "Oct 29, 2026 17:30 UTC",
+   "short": "Oct 29 17:30Z"
+  },
+  {
+   "raw": "29-Oct-2026 17:36:01",
+   "label": "Oct 29, 2026 17:36 UTC",
+   "short": "Oct 29 17:36Z"
+  },
+  {
+   "raw": "29-Oct-2026 18:12:02",
+   "label": "Oct 29, 2026 18:12 UTC",
+   "short": "Oct 29 18:12Z"
+  },
+  {
+   "raw": "29-Oct-2026 18:24:02",
+   "label": "Oct 29, 2026 18:24 UTC",
+   "short": "Oct 29 18:24Z"
+  },
+  {
+   "raw": "29-Oct-2026 18:35:00",
+   "label": "Oct 29, 2026 18:35 UTC",
+   "short": "Oct 29 18:35Z"
+  },
+  {
+   "raw": "29-Oct-2026 18:45:00",
+   "label": "Oct 29, 2026 18:45 UTC",
+   "short": "Oct 29 18:45Z"
+  },
+  {
+   "raw": "29-Oct-2026 19:00:00",
+   "label": "Oct 29, 2026 19:00 UTC",
+   "short": "Oct 29 19:00Z"
+  },
+  {
+   "raw": "29-Oct-2026 19:35:00",
+   "label": "Oct 29, 2026 19:35 UTC",
+   "short": "Oct 29 19:35Z"
+  },
+  {
+   "raw": "29-Oct-2026 19:36:00",
+   "label": "Oct 29, 2026 19:36 UTC",
+   "short": "Oct 29 19:36Z"
+  },
+  {
+   "raw": "29-Oct-2026 19:48:00",
+   "label": "Oct 29, 2026 19:48 UTC",
+   "short": "Oct 29 19:48Z"
+  },
+  {
+   "raw": "29-Oct-2026 21:05:00",
+   "label": "Oct 29, 2026 21:05 UTC",
+   "short": "Oct 29 21:05Z"
+  },
+  {
+   "raw": "29-Oct-2026 22:25:00",
+   "label": "Oct 29, 2026 22:25 UTC",
+   "short": "Oct 29 22:25Z"
+  },
+  {
+   "raw": "29-Oct-2026 23:24:02",
+   "label": "Oct 29, 2026 23:24 UTC",
+   "short": "Oct 29 23:24Z"
+  },
+  {
+   "raw": "garbage",
+   "label": "garbage",
+   "short": "garbage"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+# Not needed to build or run the deployment (they stay in the repository).
+scripts/
+src/**/*.test.ts
+src/lib/__fixtures__/
+vitest.config.mts
+.data/
