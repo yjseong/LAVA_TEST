@@ -275,13 +275,24 @@ export class UpstashStore implements Store {
   async addEvents(events: AlertEvent[]): Promise<number> {
     let added = 0;
     for (const batch of chunked(events, CHUNK)) {
-      // 1) HSETNX tells which rows are new ...
+      // 0) ONE HMGET finds the rows that are already stored. A refresh re-sends the same ~200 history rows (the Tokyo
+      //    list, MIROVA) every time something changed, and Upstash bills every command: an HSETNX per row cost ~200
+      //    commands to learn that nothing was new, the HMGET costs 1 for the whole batch.
+      const keys = batch.map(eventKey);
+      const stored = await this.redis.hmget(this.H(), ...keys);
+      const isStored = (i: number): boolean => {
+        const v = Array.isArray(stored) ? stored[i] : stored ? stored[keys[i]] : null;
+        return v !== null && v !== undefined;
+      };
+      const candidates = batch.filter((_e, i) => !isStored(i));
+      if (!candidates.length) continue;
+      // 1) HSETNX still has the last word (another refresh may have stored the same row in the meantime) ...
       const p1 = this.redis.pipeline();
-      for (const e of batch) p1.hsetnx(this.H(), eventKey(e), JSON.stringify(e));
+      for (const e of candidates) p1.hsetnx(this.H(), eventKey(e), JSON.stringify(e));
       const created = await p1.exec();
-      const fresh = batch.filter((_e, i) => Number(created[i]) === 1);
+      const fresh = candidates.filter((_e, i) => Number(created[i]) === 1);
       if (!fresh.length) continue;
-      // 2) ... and only those are indexed by time (all rows + per volcano)
+      // 2) ... and only the really new rows are indexed by time (all rows + per volcano)
       const p2 = this.redis.pipeline();
       for (const e of fresh) {
         const member = { score: epochSeconds(e.event_time), member: eventKey(e) };

@@ -1,7 +1,7 @@
 // Source refresh. Port of _refresh_sources() in pages/home.py.
 //
 // Python ran this in a daemon thread every 60 s. A serverless function has no resident thread, so it is triggered
-// instead (see payload.ts: a request that finds the snapshot older than 60 s schedules it with after(); a Vercel Cron
+// instead (see payload.ts: a request that finds the snapshot older than REFRESH_AFTER_MS (5 min) schedules it with after(); a Vercel Cron
 // may call /api/cron/refresh too). The in-process _REFRESH_LOCK became a Store lock, and the in-process memory of
 // "what did we save last" (_LAST_REGISTRY_KEY, _LAST_RECENT_KEY, the JMA cache) lives in the snapshot.
 import type { MirovaRow, VaacRow } from "@/lib/types";

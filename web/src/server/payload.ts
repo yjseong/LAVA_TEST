@@ -2,12 +2,17 @@
 import { after } from "next/server";
 import type { AlertPayload } from "@/lib/types";
 import { digest } from "./digest";
-import { readAlerts } from "./registry";
+import { alertsFromBlob, REGISTRY_KEY, type RegistryBlob } from "./registry";
 import { FAILURE_KEY, refreshSources, SNAPSHOT_KEY, type Snapshot } from "./refresh";
 import { getStore, type Store } from "./store";
 
-/** A snapshot older than this is still served, and a refresh is started behind the response. */
-export const REFRESH_AFTER_MS = 60_000;
+/**
+ * A snapshot older than this is still served, and a refresh is started behind the response.
+ * The Python app refreshed every 60 s. Here 5 minutes: the free Upstash plan allows 500K commands a month, and every
+ * refresh costs a handful (VAAs are issued every few hours per volcano, so a 5-minute lag is invisible).
+ * The "Refresh" button still refreshes at once.
+ */
+export const REFRESH_AFTER_MS = 5 * 60_000;
 /** Cold start (nothing stored yet): wait this long for the first refresh (the Python app waited 45 s as well). */
 export const COLD_START_WAIT_MS = 45_000;
 
@@ -29,9 +34,19 @@ export function runInBackground(task: () => Promise<unknown>): void {
   }
 }
 
+/** Snapshot + registry in ONE command (MGET): Upstash bills per command, and every visitor request starts here. */
+async function readState(store: Store): Promise<{ snapshot: Snapshot | null; registry: RegistryBlob | null }> {
+  const [snapshot, registry] = await store.getManyJson<Snapshot | RegistryBlob>([SNAPSHOT_KEY, REGISTRY_KEY]);
+  return { snapshot: snapshot as Snapshot | null, registry: registry as RegistryBlob | null };
+}
+
 /** The payload as stored - no refresh is triggered. */
 export async function buildPayload(store: Store = getStore()): Promise<AlertPayload> {
-  const [snapshot, registry] = await Promise.all([store.getJson<Snapshot>(SNAPSHOT_KEY), readAlerts(store)]);
+  return payloadFrom(await readState(store));
+}
+
+function payloadFrom({ snapshot, registry: registryBlob }: { snapshot: Snapshot | null; registry: RegistryBlob | null }): AlertPayload {
+  const registry = alertsFromBlob(registryBlob);
   const vaac_rows = snapshot?.vaac_rows ?? [];
   const jma_raw = snapshot?.jma_raw ?? {};
   const jma_issued = snapshot?.jma_issued ?? {};
@@ -61,19 +76,20 @@ export async function buildPayload(store: Store = getStore()): Promise<AlertPayl
 
 /**
  * The page's data, with the refresh policy:
- *  - snapshot fresher than 60 s: return it;
+ *  - snapshot fresher than REFRESH_AFTER_MS: return it (one Redis command in total);
  *  - older: return it AND refresh behind the response (the next request sees the new data);
  *  - nothing stored at all (cold start): wait for the first refresh (at most 45 s), then return what it produced.
  */
 export async function getAlertPayload(store: Store = getStore()): Promise<AlertPayload> {
-  const snapshot = await store.getJson<Snapshot>(SNAPSHOT_KEY);
+  const state = await readState(store);
+  const { snapshot } = state;
   if (!snapshot) {
     const failed = await store.getJson(FAILURE_KEY); // a refresh just failed: do not make every request wait again
     if (!failed) await Promise.race([refreshSources({ store }).catch((err) => console.error("[refresh] failed:", err)), sleep(COLD_START_WAIT_MS)]);
-  } else if (Date.now() - snapshot.fetched_ms > REFRESH_AFTER_MS) {
-    runInBackground(() => refreshSources({ store }));
+    return buildPayload(store); // the refresh wrote new state
   }
-  return buildPayload(store);
+  if (Date.now() - snapshot.fetched_ms > REFRESH_AFTER_MS) runInBackground(() => refreshSources({ store }));
+  return payloadFrom(state);
 }
 
 /**

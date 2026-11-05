@@ -215,9 +215,13 @@ describe("UpstashStore round trips", () => {
     const s = new UpstashStore(redis);
     const rows = Array.from({ length: 50 }, (_x, i) => ev(i + 1, `2026-11-0${(i % 4) + 1}T00:00:00+00:00`));
     await s.addEvents(rows);
-    expect(redis.commands).toBe(2); // 50 HSETNX in one pipeline, 100 ZADD in another
+    expect(redis.commands).toBe(3); // 1 HMGET (which rows exist?), 50 HSETNX in one pipeline, 100 ZADD in another
     const before = redis.commands;
-    expect(await s.addEvents(rows)).toBe(0); // nothing new: a single pipeline, no ZADD pass
+    expect(await s.addEvents(rows)).toBe(0); // nothing new: just the HMGET - no HSETNX per row, no ZADD pass
     expect(redis.commands - before).toBe(1);
+    // a batch with ONE new row among the known ones indexes only that row
+    const mixed = [...rows, ev(99, "2026-11-04T00:00:00+00:00")];
+    expect(await s.addEvents(mixed)).toBe(1);
+    expect(redis.zsets.get("lava:ev:z")!.size).toBe(51);
   });
 });

@@ -13,14 +13,14 @@ import type { Store } from "./store";
 import { eventTimeIso, isoSeconds } from "./time";
 
 type StoredAlert = Omit<RegistryAlert, "stale">;
-interface RegistryBlob {
+export interface RegistryBlob {
   alerts: Record<string, StoredAlert[]>; // source -> its current alerts
   sources: Record<string, SourceStatus>; // source -> refresh status (source_refresh table)
 }
 /** per (volcano, source, kind): the label of the newest history row - for the "label changed?" rule */
 type LastLabels = Record<string, { label: string; event_time: string }>;
 
-const REGISTRY_KEY = "registry";
+export const REGISTRY_KEY = "registry";
 const LAST_LABELS_KEY = "events:last";
 
 /**
@@ -188,7 +188,11 @@ export class RegistryTx {
 
 /** Current alerts of every volcano, each marked stale when its source has not refreshed successfully for 6 h. */
 export async function readAlerts(store: Store, nowMs = Date.now()) {
-  const blob = await store.getJson<RegistryBlob>(REGISTRY_KEY);
+  return alertsFromBlob(await store.getJson<RegistryBlob>(REGISTRY_KEY), nowMs);
+}
+
+/** Same as readAlerts() for a registry blob that was already read (so a request can fetch it together with the snapshot). */
+export function alertsFromBlob(blob: RegistryBlob | null, nowMs = Date.now()) {
   const sources = blob?.sources ?? {};
   const by_number: Record<string, RegistryAlert[]> = {};
   for (const rows of Object.values(blob?.alerts ?? {})) {

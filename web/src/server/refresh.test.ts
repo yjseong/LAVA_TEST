@@ -2,7 +2,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { AlertPayload, EventsResponse, MirovaRow, VaacRow } from "@/lib/types";
 import type { AlertInput } from "./collectors/types";
-import { getAlertPayload, manualRefresh, buildPayload } from "./payload";
+import { getAlertPayload, manualRefresh, buildPayload, REFRESH_AFTER_MS } from "./payload";
 import { _setTestDeps, refreshSources, SNAPSHOT_KEY, type RefreshDeps, type Snapshot } from "./refresh";
 import { readEvents } from "./registry";
 import { MemoryStore, setStore } from "./store";
@@ -170,7 +170,7 @@ describe("getAlertPayload (refresh policy)", () => {
     _setTestDeps(deps);
     await getAlertPayload(store);
     const snap = (await store.getJson<Snapshot>(SNAPSHOT_KEY))!;
-    snap.fetched_ms = Date.now() - 5 * 60_000;
+    snap.fetched_ms = Date.now() - REFRESH_AFTER_MS - 1000; // just past the freshness window
     await store.setJson(SNAPSHOT_KEY, snap);
     state.bom = async () => [vaac(), vaac({ advisory: "2026/2" })];
     const served = await getAlertPayload(store);

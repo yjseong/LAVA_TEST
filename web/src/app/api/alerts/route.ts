@@ -4,7 +4,7 @@ export const maxDuration = 60; // a cold start waits for the first source refres
 
 /**
  * GET /api/alerts -> AlertPayload (what the Dash app kept in the "alert-store").
- * Served from the stored snapshot; a snapshot older than 60 s also starts a refresh behind the response.
+ * Served from the stored snapshot; a snapshot older than 5 min also starts a refresh behind the response.
  */
 export async function GET() {
   try {
