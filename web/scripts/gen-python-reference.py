@@ -22,6 +22,13 @@ import pandas as pd
 
 WEB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.join(os.path.dirname(WEB), "original_python")   # the Python app as it was before the conversion
+if not os.path.isdir(ROOT):
+    sys.exit(
+        f"The original Python app was not found at {ROOT}\n"
+        "It is not kept in the GitHub repository (see web/README.md); restore it from the git history first:\n"
+        "    git checkout 60a30d4 -- original_python\n"
+        "(npm test does not need it: the reference values are committed in src/lib/__fixtures__.)"
+    )
 sys.path.insert(0, ROOT)
 
 master = json.load(open(os.path.join(WEB, "src", "data", "volcanoes.json"), encoding="utf-8"))

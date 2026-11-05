@@ -2,7 +2,9 @@
 
 Python(Dash)으로 만든 Home 화면(세계 지도, VAAC 말풍선, 오른쪽 Volcano & Alerts 패널, 미니맵)을
 **Next.js 16 + React 19 + react-leaflet**으로 옮기고 Vercel에 올릴 수 있게 한 버전입니다.
-변환 전 원본 Python 코드는 상위 폴더의 `../original_python/`에 그대로 보관돼 있습니다.
+변환 전 원본 Python 코드는 이 저장소에 포함하지 않습니다(배포에 필요하지 않기 때문입니다). Git 이력에는 남아 있어서
+커밋 `60a30d4`의 `original_python/`(그 이전 `a2b5cbe`에는 저장소 루트)에서 그대로 꺼낼 수 있습니다:
+`git checkout 60a30d4 -- original_python`. 이 문서의 "Python 원본" 설명과 아래 일부 스크립트는 그 원본을 기준으로 합니다.
 
 ## 실행
 
@@ -129,8 +131,11 @@ Project Settings → Functions → Function Region을 **Tokyo (hnd1)** 로 바�
 
 - `npm test` — `scripts/gen-python-reference.py`가 **Python 원본 함수를 그대로 실행**해 만든 기준값
   (`src/lib/__fixtures__/python-reference.json`, 2026-10-30 스냅샷)과 TS 결과를 비교합니다. 화산 1,261개의 삼각형 크기·색·테두리·말풍선,
-  상태 문구, 99개 시간 표기가 모두 같아야 통과합니다. 기준값을 다시 만들려면 `python web/scripts/gen-python-reference.py` (pandas 필요).
-- `npx tsx scripts/smoke-sources.ts` — 모든 외부 소스를 실제로 호출해 행 수와 샘플을 출력합니다.
+  상태 문구, 99개 시간 표기가 모두 같아야 통과합니다. 기준값 파일은 저장소에 들어 있어서 **원본이 없어도 `npm test`는 그대로 동작합니다.**
+  기준값을 다시 만들려면 원본이 `../original_python/`에 있어야 합니다(위 `git checkout` 참고): `python web/scripts/gen-python-reference.py` (pandas 필요).
+- `npx tsx scripts/smoke-sources.ts` — 모든 외부 소스를 실제로 호출해 행 수와 샘플을 출력합니다(원본의 스냅샷이 있으면 비교도 합니다).
+- `npm run build:master` — 화산 목록을 다시 만들 때만 씁니다. 원본의 `volcano_master_all.xlsx` 경로를 인자로 주세요
+  (`npm run build:master -- <xlsx 경로>`). 결과(`src/data/volcanoes.json`)는 저장소에 들어 있어서 평소에는 필요 없습니다.
 
 ## 알려진 한계
 

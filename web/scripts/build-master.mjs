@@ -13,6 +13,15 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 // default: the list in the original Python app (../original_python/ next to web/)
 const src = path.resolve(process.argv[2] ?? path.join(here, "..", "..", "original_python", "volcano_master_all.xlsx"));
 const out = path.join(here, "..", "src", "data", "volcanoes.json");
+if (!fs.existsSync(src)) {
+  console.error(
+    `Volcano list not found: ${src}\n` +
+      "The original Python app (which held volcano_master_all.xlsx) is not kept in the GitHub repository.\n" +
+      "Pass the path of the xlsx:  npm run build:master -- path/to/volcano_master_all.xlsx\n" +
+      "(src/data/volcanoes.json is committed, so this is only needed when the list itself changes.)",
+  );
+  process.exit(1);
+}
 
 const rows = await readXlsxFile(src);
 const header = rows[0].map((h) => String(h ?? "").trim());
