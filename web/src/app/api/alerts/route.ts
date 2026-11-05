@@ -1,4 +1,5 @@
 import { getAlertPayload } from "@/server/payload";
+import { getStore } from "@/server/store";
 
 export const maxDuration = 60; // a cold start waits for the first source refresh
 
@@ -10,7 +11,11 @@ export async function GET() {
   try {
     const payload = await getAlertPayload();
     return Response.json(payload, {
-      headers: { "Cache-Control": "public, s-maxage=20, stale-while-revalidate=60" },
+      headers: {
+        "Cache-Control": "public, s-maxage=20, stale-while-revalidate=60",
+        // which store answered: "upstash", or "memory" while Redis is down (see server/resilientStore.ts)
+        "X-Store": getStore().kind,
+      },
     });
   } catch (err) {
     console.error("[api/alerts]", err);

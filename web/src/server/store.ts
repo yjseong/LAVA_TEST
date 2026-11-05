@@ -14,6 +14,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { Redis } from "@upstash/redis";
 import type { AlertEvent } from "@/lib/types";
+import { ResilientStore } from "./resilientStore";
 
 /** Identity of a history row (the primary key of alert_events in the Python app). */
 export const eventKey = (e: Pick<AlertEvent, "volcano_number" | "source" | "kind" | "label" | "event_time">): string =>
@@ -352,7 +353,13 @@ function redisCredentials(): { url: string; token: string } | null {
 export function createStore(): Store {
   const prefix = process.env.LAVA_KEY_PREFIX ?? "lava:";
   const creds = redisCredentials();
-  if (creds) return new UpstashStore(new Redis({ url: creds.url, token: creds.token }) as unknown as RedisLike, prefix);
+  if (creds) {
+    // If Redis fails (outage, free-plan limit) the service keeps running on an in-memory store - see resilientStore.ts
+    return new ResilientStore(
+      new UpstashStore(new Redis({ url: creds.url, token: creds.token }) as unknown as RedisLike, prefix),
+      new MemoryStore(),
+    );
+  }
   if (process.env.VERCEL) {
     console.warn(
       "[store] no Redis configured (UPSTASH_REDIS_REST_URL / _TOKEN): state is kept in memory and is lost between " +
