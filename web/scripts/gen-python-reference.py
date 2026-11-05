@@ -21,7 +21,7 @@ from functools import lru_cache
 import pandas as pd
 
 WEB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ROOT = os.path.dirname(WEB)
+ROOT = os.path.join(os.path.dirname(WEB), "original_python")   # the Python app as it was before the conversion
 sys.path.insert(0, ROOT)
 
 master = json.load(open(os.path.join(WEB, "src", "data", "volcanoes.json"), encoding="utf-8"))

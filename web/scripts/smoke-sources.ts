@@ -1,4 +1,4 @@
-// Live check of every upstream source, compared with the Python app's snapshot (../cache/latest_sources.json).
+// Live check of every upstream source, compared with the Python app's snapshot (../original_python/cache/latest_sources.json).
 //
 //   npx tsx scripts/smoke-sources.ts
 //
@@ -19,7 +19,7 @@ import { normalizeJma, normalizeVaac } from "@/server/registry";
 const index = new VolcanoIndex();
 const python = (() => {
   try {
-    return JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "..", "cache", "latest_sources.json"), "utf8"));
+    return JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "..", "original_python", "cache", "latest_sources.json"), "utf8"));
   } catch {
     return null;
   }

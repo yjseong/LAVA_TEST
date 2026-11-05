@@ -10,7 +10,8 @@ import { fileURLToPath } from "node:url";
 import readXlsxFile from "read-excel-file/node";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const src = path.resolve(process.argv[2] ?? path.join(here, "..", "..", "volcano_master_all.xlsx"));
+// default: the list in the original Python app (../original_python/ next to web/)
+const src = path.resolve(process.argv[2] ?? path.join(here, "..", "..", "original_python", "volcano_master_all.xlsx"));
 const out = path.join(here, "..", "src", "data", "volcanoes.json");
 
 const rows = await readXlsxFile(src);

@@ -2,7 +2,7 @@
 
 Python(Dash)으로 만든 Home 화면(세계 지도, VAAC 말풍선, 오른쪽 Volcano & Alerts 패널, 미니맵)을
 **Next.js 16 + React 19 + react-leaflet**으로 옮기고 Vercel에 올릴 수 있게 한 버전입니다.
-원본 Python 코드는 이 폴더 바깥(상위 폴더)에 그대로 있습니다.
+변환 전 원본 Python 코드는 상위 폴더의 `../original_python/`에 그대로 보관돼 있습니다.
 
 ## 실행
 
